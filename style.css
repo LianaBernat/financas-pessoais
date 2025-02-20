@@ -1,0 +1,148 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+   }
+
+section{
+    padding-bottom:30px ;
+}
+
+
+h1{
+    /*color: #2A0074;*/
+    font-size:40px;
+    font-weight: bold;
+    /*-webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;*/
+    color: darkgreen;
+}
+h2{
+    font-size: 30px;
+}
+
+h3{
+    -webkit-text-stroke-width: 1px; 
+    -webkit-text-stroke-color: black;
+    font-size: 28px;
+}
+
+p{
+    font-size:20px;
+    line-height:1.5;
+    max-width: 80%;
+    margin: auto;
+    padding-left: 30px;
+    vertical-align: middle;
+ }
+
+.ladoalado {
+    display:inline;
+    vertical-align: middle;
+     }
+
+.ladoalado img{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+
+.ladoalado2 {
+    display: flex;
+    align-items:start;
+    /*justify-content: center;*/
+    gap: 30px;
+    padding: 0;
+    margin-left: 50px;
+    
+}
+.ladoalado2 img {
+    width: 30%;
+    height: auto;  
+    border: solid lightblue; 
+}
+
+.ladoalado2 .text {
+    width: 60%;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 0;
+    padding-top:0;      
+}
+
+table {
+    display: grid;
+    margin: 0 auto 10px auto;
+    border-collapse: collapse;
+   
+           
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    }
+
+th {
+    background-color: #f4f4f4;
+}
+
+
+.tabela{
+    display: none;
+    margin: 0 auto;
+    border-collapse: collapse;
+    width:90%;  
+    
+}
+
+.tabela.active{
+    display: grid;
+    margin: 0 auto;
+   border-collapse: collapse;
+    width:90%;  
+}
+
+.container {
+    position: relative;
+    width: 99%;
+    margin: auto;
+    }
+
+
+
+.arrow {
+    position: absolute;
+    bottom: 50%;
+    right: 2%;
+    font-size: 24px;
+    cursor: pointer;
+    background: rgba(61, 59, 59, 0.5);
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/*botao de vai e vem*/
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.btn {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
