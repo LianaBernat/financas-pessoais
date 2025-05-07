@@ -6,3 +6,4 @@ Repositório para armazenar o site Finanças Pessoais, meu projeto pessoal para 
 - O site tenta mostrar de maneira simples investimentos acessíveis a pessoas físicas.
   
 ## 🌐 Acesse o site em
+https://lianabernat.github.io/financas-pessoais/
